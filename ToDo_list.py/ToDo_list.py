@@ -6,6 +6,7 @@ root.title("To-Do List")
 tasks = []
 
 def add_task():
+    
     task_text = entry.get()
     if task_text:
         var = tk.BooleanVar()
