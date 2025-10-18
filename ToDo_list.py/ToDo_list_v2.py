@@ -14,7 +14,6 @@ def save_tasks():
             f.write(f"{label.cget('text')}||{var.get()}\n")
 
 def load_tasks():
-    
     try:
         with open("tasks.txt", "r") as f:
             for line in f:
